@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_text">Home Text</string>
+    <string name="shorts_text">Shorts text</string>
+    <string name="subscription_text">Subscription text</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_on</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+<!-- res/drawable/custom_edittext_bg.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:id="@+id/background">
+        <shape>
+            <solid android:color="#fff" /> <!-- Custom background color -->
+            <corners android:radius="8dp" /> <!-- Radius for rounded corners -->
+
+        </shape>
+    </item>
+
+    <!-- Border -->
+    <item android:id="@+id/border">
+        <shape>
+            <solid android:color="@android:color/transparent" /> <!-- Transparent color for border -->
+            <stroke
+                android:width="2dp"
+            android:color="#eeee" /> <!-- Custom border color -->
+<!--            <corners android:radius="8dp" /> &lt;!&ndash; Radius for rounded corners &ndash;&gt;-->
+            <padding
+                android:left="16dp"
+                android:right="16dp"
+                android:top="12dp"
+                android:bottom="12dp" />
+        </shape>
+    </item>
+    <!-- Set the padding inside the EditText -->
+
+</layer-list>
